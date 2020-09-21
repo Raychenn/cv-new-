@@ -1,0 +1,152 @@
+body{
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: #f6f6f6;
+}
+
+h1{
+  color: #66BFBF;
+  margin-top: 0;
+  width: 10%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.325rem;
+  white-space: nowrap;
+  position: relative;
+  right: 65px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+  /* padding-bottom: 10px; is used to space things out between <h2> section and <p> section*/
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+hr{
+  width: 10%;
+  border: none;
+  border-top: 6px dotted #d789d7;
+  background-color:#fff;
+  /* height:1px; */
+  margin: 90px auto;
+}
+p{
+  line-height: 2;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.profile-size{
+  width: 300px;
+}
+.web-desinge-img{
+  width: 25%;
+  float: left;
+  /* after setting up the line below, we can see the image has a bit space between it and the texts */
+  /* the texts have less width to be displayed because it is wrapping around, its taking up the full width of the <div> */
+  margin-right: 30px;
+}
+.rapping-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto;
+  /* the lines beneath will overwrite the text-center in the body */
+  text-align: left;
+  /* the lines beneath will double the line-height (specifying a scale)*/
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD3, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(top, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+.copywrite{
+  color: #eaf6f6;
+  font-size: 0.76rem;
+  padding: 20px 0;
+}
+
+.code-skill-description{
+  /* clear: left; */
+}
+.leisure-skill-description{
+  /* clear: right; */
+}
